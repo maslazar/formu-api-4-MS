@@ -1,0 +1,91 @@
+.swal-modal {
+  background-color: #F2A71B;
+}
+
+.swal-icon--success:before {
+  background-color: #F2A71B;
+  top: -7px;
+  left: -33px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 60px 60px;
+  transform-origin: rotate(-45deg);
+}
+
+.swal-icon--success:after {
+  background-color: #F2A71B;
+  content:'';
+  border-radius: 50%;
+  position:absolute;
+  width: 60px;
+  height: 120px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.swal-icon--success__hide-corners {
+  width: 5px;
+  height: 90px;
+  background-color: #F2A71B;
+  padding: 1px;
+  position: absolute;
+  left: 28px;
+  top: 8px;
+  z-index: 1;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.swal-title {
+  color: #011F26;
+  font-weight: 600;
+  text-transform: none;
+  position: relative;
+  display: block;
+  padding: 13px 16px;
+  font-size: 27px;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.swal-icon--error {
+  border-color: #011F26;
+  -webkit-animation: animateErrorIcon .5s;
+  animation: animateErrorIcon .5s;
+}
+
+.swal-icon--error__line {
+    position: absolute;
+    height: 5px;
+    width: 47px;
+    background-color: #011F26;
+    display: block;
+    top: 37px;
+    border-radius: 2px;
+}
+
+.swal-button {
+  background-color: #025E73;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 24px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.swal-icon--success__ring {
+  width: 80px;
+  height: 80px;
+  border: 4px solid #025E73;
+  border-radius: 50%;
+  box-sizing: content-box;
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  z-index: 2;
+}
